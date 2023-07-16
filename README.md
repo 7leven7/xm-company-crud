@@ -8,3 +8,5 @@ execute the following commands:
 docker exec -id xm-company-crud-app-1 sh
 golangci-lint run
 
+In the docker-compose.yaml file, you can find the ports configuration. 
+The app port is set to 8888, the PostgreSQL port is set to 1234, and Kafka is using the default port 9092. 
